@@ -1,0 +1,20 @@
+img {
+    /*  To contain the image to the confines of the div  */
+    max-width: 100%;
+  }
+  
+ /* .hero-image {
+    max-width: 100%; 
+    width: 800px;
+    margin: auto;
+  }   */
+  
+  .hero-image::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to top, rgb(0, 0, 0) 0, rgba(255, 255, 255, 0) 100%);
+    margin-top: -190px;
+    height: 200px;
+    width: 100%;
+    content: '';
+  }
